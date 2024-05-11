@@ -5,6 +5,8 @@ categories: "Vlog"
 tag: "hello"
 toc: true
 author_profile: false
+sidebar:
+    nav: "docs"
 ---
 
 # 처음 만들어본 블로그 입니다.
