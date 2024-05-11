@@ -1,8 +1,10 @@
 # main links
 main:
 -title: "Category"
+layout: categories
 url: /categories/
 -title: "tag"
+layout: tags
 url: /tags/
   #- title: "Quick-Start Guide"
   #  url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
