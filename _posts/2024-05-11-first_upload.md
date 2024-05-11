@@ -2,7 +2,7 @@
 layout: single
 title:  "오늘부터 블로그 시작합니다!"
 categories: "Vlog"
-tag: "hello"
+#tag: "hello"
 ---
 
 # 처음 만들어본 블로그 입니다.
