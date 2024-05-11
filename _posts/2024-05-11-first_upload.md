@@ -1,8 +1,10 @@
 ---
 layout: single
 title:  "오늘부터 블로그 시작합니다!"
-category: "Vlog"
+categories: "Vlog"
 tag: "hello"
+toc: true
+author_profile: false
 ---
 
 # 처음 만들어본 블로그 입니다.
