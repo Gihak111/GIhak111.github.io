@@ -9,7 +9,7 @@ sidebar:
     nav: "docs"
 ---
 
-# ANTImega 128에서 사용하는 타이머애 대한 코드 입니다.
+# ANTImega 128에서 사용하는 타이머에 대한 코드 입니다.
 ```cpp
 ISP(TIMER0_OVF_vect)
 {
@@ -42,4 +42,4 @@ void InitTimer0(void)
 }
 ```
 
-위와 같은 코드를 사용하여 timer0 를 초기화하고 사용하는 방법을 알아보았다.
+위와 같은 코드를 사용하여 timer0 를 초기화하고 사용하는 방법을 알아보았습니다.
