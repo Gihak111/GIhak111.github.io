@@ -5,6 +5,7 @@ categories: "Matlab"
 tag: "code"
 toc: true
 author_profile: false
+published: true
 sidebar:
     nav: "docs"
 ---
