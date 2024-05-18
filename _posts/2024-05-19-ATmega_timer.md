@@ -19,12 +19,14 @@ sidebar:
 |테스트1|테스트2|테스트3|테스트4|
 
 ATmega128에서 사용하는 타이머는 총 4가지가 있습니다.
+
 |TIMER0|TIMER1|TIMER2|TIMER3|
 |-----|---|---|---|
 |TCCR0|TCCR1A|TCCR2|TCCR3A|
 |TCNT0 : 8bit|TCCR1B|TCNT2 : 8bit|TCCR3B|
 |Timsk : 0bit|TCNT1 : 16bit|Timsk : 6bit|TCNT3 : 16bit|
 ||Timsk : 2bit||ETimsk : 2bit|
+
 각각의 타이머는 비트수가 다르며 환경에 맞는 타이머를 활용하면 됩니다.
 
 오늘 집중적으로 알아볼 타이머는 타이머 0과 타이머 1로 어떤 비트값을 가지고 있는지, 어덯게 코딩해서 값을 설정해야 하는지 조금 더 자세히 알아볼까 합니다.
