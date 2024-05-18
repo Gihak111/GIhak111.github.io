@@ -20,7 +20,7 @@ sidebar:
 
 ATmega128에서 사용하는 타이머는 총 4가지가 있습니다.
 |TIMER0|TIMER1|TIMER2|TIMER3|
-|:--------------:|:--------------:|:--------------:|:--------------:|
+|:-----:|:---:|:---:|:---:|
 |TCCR0|TCCR1A|TCCR2|TCCR3A|
 |TCNT0 : 8bit|TCCR1B|TCNT2 : 8bit|TCCR3B|
 |Timsk : 0bit|TCNT1 : 16bit|Timsk : 6bit|TCNT3 : 16bit|
