@@ -15,7 +15,7 @@ sidebar:
 # 만들기 전 준비물
 먼저 컴퓨터에 필요한 준비물 입니다.  
 깃      url : https://git-scm.com/downloads  
-루비    url : https://rubyinstaller.org/
+루비    url : https://rubyinstaller.org/  
 깃허브 데스크톱     *필수는 아닙니다.*
 깃허브 ID
 
