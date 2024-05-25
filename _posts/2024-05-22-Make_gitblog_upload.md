@@ -30,8 +30,8 @@ sidebar:
 
 jekyll 테마는 다음과 같은 사이트에서 가져올 수 있습니다.  
 
-https://jekyllthemes.io
-http://jekyllthemes.org
+[https://jekyllthemes.io](https://jekyllthemes.io)
+[http://jekyllthemes.org](http://jekyllthemes.org)
 
 위의 사이트에 들어가서 원하는 테마를 고르시면 됩니다!  
 원하는 테마를 고르시면 바로 다운로드나 fork 해 주세요.
