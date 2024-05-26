@@ -171,7 +171,7 @@ unsigned int ReadADC(unsigned char channel)
         AdcDetSum += AdcDet;
     }
     AdcDetSum /= 20;    //평균값을 계산한다.
-    return AdcDetSum;   //검출한 ㅁㅇ 변환값을 반환한다.
+    return AdcDetSum;   //검출한 변환값을 반환한다.
 
 }
 ```
