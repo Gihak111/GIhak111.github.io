@@ -90,21 +90,21 @@ plt.show()
 실행시에는 다음과 같은 결과가 나옵니다.
 
 
-Epoch 10/100, Loss: 1.7754
-Epoch 20/100, Loss: 1.3422
-Epoch 30/100, Loss: 0.9370
-Epoch 40/100, Loss: 0.6119
-Epoch 50/100, Loss: 0.4264
-Epoch 60/100, Loss: 0.3556
-Epoch 70/100, Loss: 0.3286
-Epoch 80/100, Loss: 0.3121
-Epoch 90/100, Loss: 0.2983
-Epoch 100/100, Loss: 0.2857
-Test Accuracy: 1.0000
-정확도 : 100.0%
+Epoch 10/100, Loss: 1.7754  
+Epoch 20/100, Loss: 1.3422  
+Epoch 30/100, Loss: 0.9370  
+Epoch 40/100, Loss: 0.6119  
+Epoch 50/100, Loss: 0.4264  
+Epoch 60/100, Loss: 0.3556  
+Epoch 70/100, Loss: 0.3286  
+Epoch 80/100, Loss: 0.3121  
+Epoch 90/100, Loss: 0.2983  
+Epoch 100/100, Loss: 0.2857  
+Test Accuracy: 1.0000  
+정확도 : 100.0%  
 
 ![결과 표](![AI_result](https://github.com/Gihak111/Gihak111.github.io/assets/162708096/c7339fb3-0feb-4ab7-8511-148c152d4f3c)
 )
 
 
-다음과 같은 결과를 얻을 수 있습니다.
+다음과 같은 결과를 얻을 수 있습니다.  
