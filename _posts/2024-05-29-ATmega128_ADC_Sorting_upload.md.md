@@ -91,7 +91,7 @@ unsigned int ReadADC(unsigned char channel)
         deta[i] = AdcDet;
     }
 
-    // 배열을 정렬하여 이상치를 배제하기 전에 정렬한다.
+    // 배열을 정렬하여 이상치를 배제하기 쉽게 한다.
     int n = sizeof(deta) / sizeof(deta[0]);
     bubbleSort(deta, n);
 
