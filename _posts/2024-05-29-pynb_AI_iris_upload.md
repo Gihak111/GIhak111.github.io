@@ -103,8 +103,8 @@ Epoch 100/100, Loss: 0.2857
 Test Accuracy: 1.0000  
 정확도 : 100.0%  
 
-![결과 표](![AI_result](https://github.com/Gihak111/Gihak111.github.io/assets/162708096/c7339fb3-0feb-4ab7-8511-148c152d4f3c)
-)
+![결과 표](https://github.com/Gihak111/Gihak111.github.io/assets/162708096/c7339fb3-0feb-4ab7-8511-148c152d4f3c)
+
 
 
 다음과 같은 결과를 얻을 수 있습니다.  
