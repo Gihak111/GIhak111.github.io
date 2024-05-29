@@ -1,7 +1,7 @@
 ---
 layout: single
 title:  "매트랩으로 전방, 후방, 중앙 차분 구현"
-categories: "pynb"
+categories: "Matlab"
 tag: "code"
 toc: true
 author_profile: false
