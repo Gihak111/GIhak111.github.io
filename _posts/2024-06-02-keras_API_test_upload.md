@@ -83,10 +83,10 @@ print('정확도 : {}%'.format(test_accuracy * 100))
 
 ```
 
-위 코드를 실행시키려면 다음 명령어를 실행해 다운 받아야 합니다.
-scikitlearn 설치
-pip install scikit-learn
-matplotlib 설치
-pip install matplotlib
-TensorFlow 설치
-pip install tensorflow
+위 코드를 실행시키려면 다음 명령어를 실행해 다운 받아야 합니다.  
+scikitlearn 설치  
+pip install scikit-learn  
+matplotlib 설치  
+pip install matplotlib  
+TensorFlow 설치  
+pip install tensorflow  
