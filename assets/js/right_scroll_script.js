@@ -1,7 +1,6 @@
 document.addEventListener("DOMContentLoaded", function() {
-  var toc = document.querySelector("nav.toc");
-  if (toc) {
-    var sidebarRight = document.getElementById("sidebar-right");
+  var sidebarRight = document.getElementById("sidebar-right");
+  if (sidebarRight) {
     var offset = sidebarRight.offsetTop;
 
     window.addEventListener("scroll", function() {
