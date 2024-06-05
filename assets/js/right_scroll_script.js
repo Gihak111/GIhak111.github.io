@@ -4,8 +4,8 @@
 function fixSidebar() {
     var sidebar = document.getElementById('sidebar');
     var sticky = sidebar.offsetTop;
-  
-    if (window.pageYOffset > sticky) {
+    
+    if (window.scrollY > sticky) {
       sidebar.classList.add('fixed');
     } else {
       sidebar.classList.remove('fixed');
