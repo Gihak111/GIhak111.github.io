@@ -11,9 +11,20 @@ docs:
   - title: "목차"
     children:
       - title: "Category"
-        url: /categories/
+        children:
+          - title: "python"
+            url: /categories/#pynb
+          - title: "ATmega123"
+           url: /tags//#antimega
+           - title: "Matlab"
+           url: /tags//#matlab
       - title: "tag"
-        url: /tags/
+         children:
+          - title: "code"
+            url: /tags/#code
+          - title: "hello"
+           url: /tags/#hello
+
   #- title: "Quick-Start Guide"
   #  url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
   # - title: "About"
