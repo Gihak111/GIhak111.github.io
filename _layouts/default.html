@@ -40,5 +40,11 @@
   <main>
     {{ content }}
   </main>
-  {% include sidebar-right.html %}
+  <aside id="sidebar-right" class="sticky">
+    {% if page.toc %}
+      <nav class="toc">
+        {{ content | toc }}
+      </nav>
+    {% endif %}
+  </aside>
 </div>

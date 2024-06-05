@@ -1,19 +1,17 @@
-// your-scroll-script.js
+// right_scroll_script.js
 
-// 스크롤을 따라오는 요소를 고정하는 함수
-function fixSidebar() {
-    var sidebar = document.getElementById('sidebar');
-    var sticky = sidebar.offsetTop;
-    
-    if (window.scrollY > sticky) {
-      sidebar.classList.add('fixed');
-    } else {
-      sidebar.classList.remove('fixed');
-    }
+document.addEventListener("DOMContentLoaded", function() {
+  var toc = document.querySelector("nav.toc");
+  if (toc) {
+    var sidebarRight = document.getElementById("sidebar-right");
+    var offset = sidebarRight.offsetTop;
+
+    window.addEventListener("scroll", function() {
+      if (window.scrollY > offset) {
+        sidebarRight.classList.add("fixed");
+      } else {
+        sidebarRight.classList.remove("fixed");
+      }
+    });
   }
-  
-  // 스크롤 이벤트 리스너 등록
-  window.onscroll = function() {
-    fixSidebar();
-  };
-  
+});
