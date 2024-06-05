@@ -34,3 +34,11 @@
     {% include scripts.html %}
   </body>
 </html>
+
+<div class="container">
+  {% include sidebar.html %}
+  <main>
+    {{ content }}
+  </main>
+  {% include sidebar-right.html %}
+</div>
