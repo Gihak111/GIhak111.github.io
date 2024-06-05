@@ -1,6 +1,9 @@
+// right_scroll_script.js
+
 document.addEventListener("DOMContentLoaded", function() {
-  var sidebarRight = document.getElementById("sidebar-right");
-  if (sidebarRight) {
+  var toc = document.querySelector("nav.toc");
+  if (toc) {
+    var sidebarRight = document.getElementById("sidebar-right");
     var offset = sidebarRight.offsetTop;
 
     window.addEventListener("scroll", function() {
