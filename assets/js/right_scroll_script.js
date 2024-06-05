@@ -1,5 +1,3 @@
-// right_scroll_script.js
-
 document.addEventListener("DOMContentLoaded", function() {
   var toc = document.querySelector("nav.toc");
   if (toc) {

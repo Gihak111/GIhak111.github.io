@@ -1,6 +1,3 @@
----
----
-
 <!doctype html>
 {% include copyright.html %}
 <html lang="{{ site.locale | slice: 0,2 | default: "en" }}" class="no-js">
@@ -18,13 +15,14 @@
       <main>
         {{ content }}
       </main>
+      {% if page.toc == true %}
       <aside id="sidebar-right" class="sticky">
-        {% if page.toc %}
-          <nav class="toc">
-            {{ content | toc }}
-          </nav>
-        {% endif %}
+        <h2>Table of Contents</h2>
+        <nav class="toc">
+          {{ content | toc }}
+        </nav>
       </aside>
+      {% endif %}
     </div>
 
     {% include scripts.html %}
