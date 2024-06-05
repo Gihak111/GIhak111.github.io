@@ -13,38 +13,20 @@
     {% include_cached skip-links.html %}
     {% include_cached masthead.html %}
 
-    <div class="initial-content">
-      {{ content }}
-      {% include after-content.html %}
-    </div>
-
-    {% if site.search == true %}
-      <div class="search-content">
-        {% include_cached search/search_form.html %}
-      </div>
-    {% endif %}
-
-    <div id="footer" class="page__footer">
-      <footer>
-        {% include footer/custom.html %}
-        {% include_cached footer.html %}
-      </footer>
+    <div class="container">
+      {% include sidebar.html %}
+      <main>
+        {{ content }}
+      </main>
+      <aside id="sidebar-right" class="sticky">
+        {% if page.toc %}
+          <nav class="toc">
+            {{ content | toc }}
+          </nav>
+        {% endif %}
+      </aside>
     </div>
 
     {% include scripts.html %}
   </body>
 </html>
-
-<div class="container">
-  {% include sidebar.html %}
-  <main>
-    {{ content }}
-  </main>
-  <aside id="sidebar-right" class="sticky">
-    {% if page.toc %}
-      <nav class="toc">
-        {{ content | toc }}
-      </nav>
-    {% endif %}
-  </aside>
-</div>
