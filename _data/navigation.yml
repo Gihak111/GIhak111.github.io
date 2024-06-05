@@ -13,17 +13,18 @@ docs:
       - title: "Category"
         children:
           - title: "python"
-            url: /categories/#pynb
+            url: "/categories/#pynb"
           - title: "ATmega123"
-           url: /tags//#antimega
-           - title: "Matlab"
-           url: /tags//#matlab
+            url: "/tags/#atmega123"
+          - title: "Matlab"
+            url: "/tags/#matlab"
       - title: "tag"
-         children:
+        children:
           - title: "code"
-            url: /tags/#code
+            url: "/tags/#code"
           - title: "hello"
-           url: /tags/#hello
+            url: "/tags/#hello"
+
 
   #- title: "Quick-Start Guide"
   #  url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
