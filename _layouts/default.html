@@ -1,15 +1,10 @@
 <!doctype html>
-{% include copyright.html %}
-<html lang="{{ site.locale | slice: 0,2 | default: "en" }}" class="no-js">
+<html lang="{{ site.lang | default: "en" }}">
   <head>
     {% include head.html %}
-    {% include head/custom.html %}
   </head>
-
-  <body class="layout--{{ page.layout | default: layout.layout }}{% if page.classes or layout.classes %}{{ page.classes | default: layout.classes | join: ' ' | prepend: ' ' }}{% endif %}">
-    {% include_cached skip-links.html %}
-    {% include_cached masthead.html %}
-
+  <body>
+    {% include header.html %}
     <div class="container">
       {% include sidebar.html %}
       <main>
@@ -23,7 +18,7 @@
         {% endif %}
       </aside>
     </div>
-
+    {% include footer.html %}
     {% include scripts.html %}
   </body>
 </html>
