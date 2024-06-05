@@ -26,7 +26,7 @@ jupyter lab build
 ```  
 어떤 버젼에서든지 사용 가능한 버젼으로 다운 받으면 됩니다.  
 
-
+# 코드
 ```python
 import numpy as np
 from transformers import BertTokenizer, BertForSequenceClassification, Trainer, TrainingArguments
@@ -89,5 +89,5 @@ print(f"Evaluation results: {eval_result}")
 
 ```
 
-코드 실행시 나오는 경고는 기존의 모델을 바로 초기화해 사용해서 나오는 경고로 자연스러운 것 입니다. 무시하고 전부 러닝하면 문제없이 실행됩니다.  
+코드 실행시 나오는 경고는 전 학습된 모델에서 초기화되지 않았으며 새로 초기화되었음을 알려주는 경고로 자연스러운 것 입니다. 무시하고 전부 러닝하면 문제없이 실행됩니다.  
   
