@@ -8,9 +8,10 @@ author_profile: false
 sidebar:
     nav: "docs"
 ---
-
+# 매트랩으로 인공 신경망 구성하기
 다음과 같은 코드를 통해 매트랩으로 딥 러닝을 할수 있다.  
 코드를 실행하기 전, 애드온으로 모듈은 다운 받아줘야 한다.  
+# 코드
 ```c
 % 데이터 생성
 x = rand(1000, 2); % 100개의 2차원 데이터 포인트 생성
@@ -64,10 +65,10 @@ hold off;
 ```
 
 다음과 같은 결과를 얻을 수 있다.
-make_AI
-Accuracy: 100.00%
->> make_AI
-Accuracy: 99.80%
+make_AI  
+Accuracy: 100.00%  
+>> make_AI  
+Accuracy: 99.80%  
 
 ![결과 표 1](https://github.com/Gihak111/Gihak111.github.io/assets/162708096/a26d0425-d1a9-493c-a705-f03eb50759fe)
 
